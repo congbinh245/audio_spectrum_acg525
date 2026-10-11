@@ -1,0 +1,226 @@
+[
+ {
+  "InstFile" : "D:/NEW_gowin/FFT_Audio/src/mclk_gen.v",
+  "InstLine" : 1,
+  "InstName" : "mclk_gen",
+  "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/mclk_gen.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "mclk_gen"
+ },
+ {
+  "InstFile" : "D:/NEW_gowin/FFT_Audio/src/oled_i2c_driver.v",
+  "InstLine" : 1,
+  "InstName" : "oled_i2c_driver",
+  "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/oled_i2c_driver.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "oled_i2c_driver"
+ },
+ {
+  "InstFile" : "D:/NEW_gowin/FFT_Audio/src/top_visualizer.v",
+  "InstLine" : 1,
+  "InstName" : "top_visualizer",
+  "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/top_visualizer.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top_visualizer",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/NEW_gowin/FFT_Audio/src/top_visualizer.v",
+    "InstLine" : 107,
+    "InstName" : "u_FFT_Spectrum",
+    "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/fft/fft.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "FFT_Top"
+   },
+   {
+    "InstFile" : "D:/NEW_gowin/FFT_Audio/src/top_visualizer.v",
+    "InstLine" : 44,
+    "InstName" : "u_wm8960_init",
+    "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/WM8960_Init.v",
+    "ModuleLine" : 17,
+    "ModuleName" : "WM8960_Init",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/NEW_gowin/FFT_Audio/src/WM8960_Init.v",
+      "InstLine" : 56,
+      "InstName" : "I2C_Init_Dev",
+      "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/I2C_Init_Dev.v",
+      "ModuleLine" : 16,
+      "ModuleName" : "I2C_Init_Dev",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/NEW_gowin/FFT_Audio/src/I2C_Init_Dev.v",
+        "InstLine" : 108,
+        "InstName" : "wm8960_init_table",
+        "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/wm8960_init_table.v",
+        "ModuleLine" : 16,
+        "ModuleName" : "wm8960_init_table"
+       },
+       {
+        "InstFile" : "D:/NEW_gowin/FFT_Audio/src/I2C_Init_Dev.v",
+        "InstLine" : 120,
+        "InstName" : "i2c_control",
+        "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/i2c_control.v",
+        "ModuleLine" : 16,
+        "ModuleName" : "i2c_control",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/NEW_gowin/FFT_Audio/src/i2c_control.v",
+          "InstLine" : 72,
+          "InstName" : "i2c_bit_shift",
+          "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/i2c_bit_shift.v",
+          "ModuleLine" : 16,
+          "ModuleName" : "i2c_bit_shift"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/NEW_gowin/FFT_Audio/src/top_visualizer.v",
+    "InstLine" : 56,
+    "InstName" : "u_i2s_rx",
+    "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/i2s_rx.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "i2s_rx_audio"
+   },
+   {
+    "InstFile" : "D:/NEW_gowin/FFT_Audio/src/top_visualizer.v",
+    "InstLine" : 89,
+    "InstName" : "u_fft_ctrl",
+    "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/fft_stream_ctrl.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "fft_stream_ctrl"
+   },
+   {
+    "InstFile" : "D:/NEW_gowin/FFT_Audio/src/top_visualizer.v",
+    "InstLine" : 131,
+    "InstName" : "u_spec_calc",
+    "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/spectrum_calc.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "spectrum_calc"
+   },
+   {
+    "InstFile" : "D:/NEW_gowin/FFT_Audio/src/top_visualizer.v",
+    "InstLine" : 148,
+    "InstName" : "u_oled_streamer",
+    "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/oled_spectrum_streamer.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "oled_spectrum_streamer",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/NEW_gowin/FFT_Audio/src/oled_spectrum_streamer.v",
+      "InstLine" : 26,
+      "InstName" : "u_oled_i2c",
+      "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/i2c_control.v",
+      "ModuleLine" : 16,
+      "ModuleName" : "i2c_control",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/NEW_gowin/FFT_Audio/src/i2c_control.v",
+        "InstLine" : 72,
+        "InstName" : "i2c_bit_shift",
+        "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/i2c_bit_shift.v",
+        "ModuleLine" : 16,
+        "ModuleName" : "i2c_bit_shift"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/NEW_gowin/FFT_Audio/src/top_visualizer.v",
+    "InstLine" : 168,
+    "InstName" : "u_hdmi_pll",
+    "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/gowin_pll/gowin_pll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_PLL"
+   },
+   {
+    "InstFile" : "D:/NEW_gowin/FFT_Audio/src/top_visualizer.v",
+    "InstLine" : 189,
+    "InstName" : "u_disp_driver",
+    "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/vga/disp_driver.v",
+    "ModuleLine" : 18,
+    "ModuleName" : "disp_driver"
+   },
+   {
+    "InstFile" : "D:/NEW_gowin/FFT_Audio/src/top_visualizer.v",
+    "InstLine" : 211,
+    "InstName" : "u_hdmi_display",
+    "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/hdmi_spectrum_display.v",
+    "ModuleLine" : 14,
+    "ModuleName" : "hdmi_spectrum_display"
+   },
+   {
+    "InstFile" : "D:/NEW_gowin/FFT_Audio/src/top_visualizer.v",
+    "InstLine" : 226,
+    "InstName" : "u_dvi_encoder",
+    "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/dvi_encoder.v",
+    "ModuleLine" : 38,
+    "ModuleName" : "dvi_encoder",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/NEW_gowin/FFT_Audio/src/dvi_encoder.v",
+      "InstLine" : 58,
+      "InstName" : "encb",
+      "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/dvi_encoder.v",
+      "ModuleLine" : 106,
+      "ModuleName" : "encode"
+     },
+     {
+      "InstFile" : "D:/NEW_gowin/FFT_Audio/src/dvi_encoder.v",
+      "InstLine" : 68,
+      "InstName" : "encg",
+      "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/dvi_encoder.v",
+      "ModuleLine" : 106,
+      "ModuleName" : "encode"
+     },
+     {
+      "InstFile" : "D:/NEW_gowin/FFT_Audio/src/dvi_encoder.v",
+      "InstLine" : 78,
+      "InstName" : "encr",
+      "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/dvi_encoder.v",
+      "ModuleLine" : 106,
+      "ModuleName" : "encode"
+     },
+     {
+      "InstFile" : "D:/NEW_gowin/FFT_Audio/src/dvi_encoder.v",
+      "InstLine" : 88,
+      "InstName" : "serdes_4b_10to1_inst",
+      "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/dvi_encoder.v",
+      "ModuleLine" : 222,
+      "ModuleName" : "serdes_4b_10to1",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/NEW_gowin/FFT_Audio/src/dvi_encoder.v",
+        "InstLine" : 323,
+        "InstName" : "Gowin_DDR_1",
+        "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/gowin_ddr/gowin_ddr.v",
+        "ModuleLine" : 9,
+        "ModuleName" : "Gowin_DDR"
+       },
+       {
+        "InstFile" : "D:/NEW_gowin/FFT_Audio/src/dvi_encoder.v",
+        "InstLine" : 361,
+        "InstName" : "Gowin_DDR_2",
+        "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/gowin_ddr/gowin_ddr.v",
+        "ModuleLine" : 9,
+        "ModuleName" : "Gowin_DDR"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/NEW_gowin/FFT_Audio/src/color_bar.v",
+  "InstLine" : 1,
+  "InstName" : "color_bar",
+  "ModuleFile" : "D:/NEW_gowin/FFT_Audio/src/color_bar.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "color_bar"
+ }
+]

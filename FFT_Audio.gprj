@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25A" pn="GW5A-LV25UG324C2/I1">gw5a25a-008</Device>
+    <FileList>
+        <File path="src/I2C_Init_Dev.v" type="file.verilog" enable="1"/>
+        <File path="src/WM8960_Init.v" type="file.verilog" enable="1"/>
+        <File path="src/fft/fft.v" type="file.verilog" enable="1"/>
+        <File path="src/fft_stream_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_bit_shift.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_control.v" type="file.verilog" enable="1"/>
+        <File path="src/i2s_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/mclk_gen.v" type="file.verilog" enable="1"/>
+        <File path="src/oled_i2c_driver.v" type="file.verilog" enable="1"/>
+        <File path="src/oled_spectrum_streamer.v" type="file.verilog" enable="1"/>
+        <File path="src/spectrum_calc.v" type="file.verilog" enable="1"/>
+        <File path="src/top_visualizer.v" type="file.verilog" enable="1"/>
+        <File path="src/wm8960_init_table.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/gowin_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_ddr/gowin_ddr.v" type="file.verilog" enable="1"/>
+        <File path="src/vga/disp_driver.v" type="file.verilog" enable="1"/>
+        <File path="src/vga/disp_parameter_cfg.v" type="file.verilog" enable="1"/>
+        <File path="src/color_bar.v" type="file.verilog" enable="1"/>
+        <File path="src/dvi_encoder.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi_spectrum_display.v" type="file.verilog" enable="1"/>
+        <File path="src/FFT_Audio.cst" type="file.cst" enable="1"/>
+        <File path="src/FFT_Audio.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

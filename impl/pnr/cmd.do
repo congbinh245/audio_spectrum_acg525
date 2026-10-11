@@ -1,0 +1,19 @@
+-d D:\NEW_gowin\FFT_Audio\impl\gwsynthesis\FFT_Audio.vg
+-p GW5A-25A-UBGA324-2
+-pn GW5A-LV25UG324C2/I1
+-cst D:\NEW_gowin\FFT_Audio\src\FFT_Audio.cst
+-cfg D:\NEW_gowin\FFT_Audio\impl\pnr\device.cfg
+-sdc D:\NEW_gowin\FFT_Audio\src\FFT_Audio.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-place_option 0
+-route_option 0
+-clock_route_order 0
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000
+-enable_dsrm 0

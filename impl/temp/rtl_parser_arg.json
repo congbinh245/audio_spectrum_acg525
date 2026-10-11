@@ -1,0 +1,93 @@
+{
+ "Device" : "GW5A-25A",
+ "Files" : [
+  {
+   "Path" : "D:/NEW_gowin/FFT_Audio/src/I2C_Init_Dev.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/NEW_gowin/FFT_Audio/src/WM8960_Init.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/NEW_gowin/FFT_Audio/src/fft/fft.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/NEW_gowin/FFT_Audio/src/fft_stream_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/NEW_gowin/FFT_Audio/src/i2c_bit_shift.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/NEW_gowin/FFT_Audio/src/i2c_control.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/NEW_gowin/FFT_Audio/src/i2s_rx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/NEW_gowin/FFT_Audio/src/mclk_gen.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/NEW_gowin/FFT_Audio/src/oled_i2c_driver.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/NEW_gowin/FFT_Audio/src/oled_spectrum_streamer.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/NEW_gowin/FFT_Audio/src/spectrum_calc.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/NEW_gowin/FFT_Audio/src/top_visualizer.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/NEW_gowin/FFT_Audio/src/wm8960_init_table.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/NEW_gowin/FFT_Audio/src/gowin_pll/gowin_pll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/NEW_gowin/FFT_Audio/src/gowin_ddr/gowin_ddr.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/NEW_gowin/FFT_Audio/src/vga/disp_driver.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/NEW_gowin/FFT_Audio/src/vga/disp_parameter_cfg.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/NEW_gowin/FFT_Audio/src/color_bar.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/NEW_gowin/FFT_Audio/src/dvi_encoder.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/NEW_gowin/FFT_Audio/src/hdmi_spectrum_display.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/NEW_gowin/FFT_Audio/impl/temp/rtl_parser.result",
+ "Top" : "top_visualizer",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top_visualizer" Register="255" Alu="208" Lut="647" MULTALU27X18="4" Bsram="6" T_Register="1312(255)" T_Alu="401(208)" T_Lut="2467(647)" T_MULTALU27X18="4(4)" T_Bsram="8(6)">
+ <SubModule name="u_wm8960_init" Register="17" Alu="15" Lut="10" T_Register="71(17)" T_Alu="15(15)" T_Lut="151(10)" T_Bsram="1(0)">
+  <SubModule name="I2C_Init_Dev" Register="9" Lut="18" T_Register="54(9)" T_Lut="141(18)" T_Bsram="1(0)">
+   <SubModule name="wm8960_init_table" Bsram="1" T_Bsram="1(1)"/>
+   <SubModule name="i2c_control" Register="22" Lut="43" T_Register="45(22)" T_Lut="123(43)">
+    <SubModule name="i2c_bit_shift" Register="23" Lut="80" T_Register="23(23)" T_Lut="80(80)"/>
+   </SubModule>
+  </SubModule>
+ </SubModule>
+ <SubModule name="u_i2s_rx" Register="46" Lut="15" T_Register="46(46)" T_Lut="15(15)"/>
+ <SubModule name="u_fft_ctrl" Register="23" Alu="9" Lut="24" Bsram="1" T_Register="23(23)" T_Alu="9(9)" T_Lut="24(24)" T_Bsram="1(1)"/>
+ <SubModule name="u_spec_calc" Register="384" Alu="16" Lut="673" T_Register="384(384)" T_Alu="16(16)" T_Lut="673(673)"/>
+ <SubModule name="u_oled_streamer" Register="165" Alu="25" Lut="154" T_Register="208(165)" T_Alu="25(25)" T_Lut="270(154)">
+  <SubModule name="u_oled_i2c" Register="21" Lut="37" T_Register="43(21)" T_Lut="116(37)">
+   <SubModule name="i2c_bit_shift" Register="22" Lut="79" T_Register="22(22)" T_Lut="79(79)"/>
+  </SubModule>
+ </SubModule>
+ <SubModule name="u_hdmi_pll"/>
+ <SubModule name="u_disp_driver" Register="38" Lut="50" T_Register="38(38)" T_Lut="50(50)"/>
+ <SubModule name="u_hdmi_display" Register="126" Alu="7" Lut="413" T_Register="126(126)" T_Alu="7(7)" T_Lut="413(413)"/>
+ <SubModule name="u_dvi_encoder" T_Register="161(0)" T_Alu="121(0)" T_Lut="224(0)">
+  <SubModule name="encb" Register="46" Alu="49" Lut="68" T_Register="46(46)" T_Alu="49(49)" T_Lut="68(68)"/>
+  <SubModule name="encg" Register="36" Alu="36" Lut="49" T_Register="36(36)" T_Alu="36(36)" T_Lut="49(49)"/>
+  <SubModule name="encr" Register="38" Alu="36" Lut="68" T_Register="38(38)" T_Alu="36(36)" T_Lut="68(68)"/>
+  <SubModule name="serdes_4b_10to1_inst" Register="41" Lut="39" T_Register="41(41)" T_Lut="39(39)">
+   <SubModule name="Gowin_DDR_1"/>
+   <SubModule name="Gowin_DDR_2"/>
+  </SubModule>
+ </SubModule>
+</Module>
